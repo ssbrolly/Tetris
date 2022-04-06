@@ -1,0 +1,33 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 62.4%;
+}
+
+.grid {
+	margin: auto;
+	width: 20rem;
+	height: 40rem;
+	background-color: yellow;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.grid div {
+	/* border: 1px solid black; */
+	height: 2rem;
+	width: 2rem;
+}
+
+.tetrimino {
+	background-color: blue;
+}
+
+/* .taken {
+	display: none;
+} */
