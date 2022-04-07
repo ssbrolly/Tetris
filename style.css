@@ -8,8 +8,13 @@ html {
 	font-size: 62.4%;
 }
 
+.container {
+	display: flex;
+	justify-content: center;
+}
+
 .grid {
-	margin: auto;
+	/* margin: auto; */
 	width: 20rem;
 	height: 40rem;
 	background-color: yellow;
@@ -25,9 +30,22 @@ html {
 }
 
 .tetrimino {
+	width: 20rem;
+	height: 40rem;
 	background-color: blue;
 }
 
-/* .taken {
-	display: none;
-} */
+.mini-grid {
+	width: 8rem;
+	height: 8rem;
+	margin-left: 5rem;
+	background-color: yellow;
+
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.mini-grid div {
+	width: 2rem;
+	height: 2rem;
+}
